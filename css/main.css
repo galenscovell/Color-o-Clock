@@ -40,3 +40,18 @@ html, body {
   color: #f3f3f3;
   text-shadow: 1px 1px 6px #000;
 }
+
+a {
+  position: relative;
+  top: 90%;
+  text-align: center;
+  text-decoration: none;
+  color: #f3f3f3;
+  text-shadow: 1px 1px 6px #000;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.6);
+  transition: 0.1s;
+}
