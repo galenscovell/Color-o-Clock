@@ -1,4 +1,4 @@
 Hextime
 =======
 
-JS clock with dynamic hex-colored background
+Real-time clock that dynamically loads background color as hex value based on the time.
