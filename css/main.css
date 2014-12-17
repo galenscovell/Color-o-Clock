@@ -9,6 +9,7 @@ html, body {
   text-align: center;
   width: 100%;
   height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
   transition: 0.8s;
 }
 
@@ -26,7 +27,6 @@ html, body {
 #main_content p {
   margin-bottom: 40px;
   font-size: 96px;
-  font-family: 'Ubuntu', sans-serif;
   letter-spacing: 18px;
   color: #f3f3f3;
   text-shadow: 1px 1px 6px #000;
@@ -39,6 +39,25 @@ html, body {
   font-weight: normal;
   color: #f3f3f3;
   text-shadow: 1px 1px 6px #000;
+}
+
+#switch {
+  width: 120px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin: 20px;
+  line-height: 30px;
+  border-radius: 10px;
+  color: #f3f3f3;
+  transition: 0.4s;
+}
+
+#switch:hover {
+  background: rgba(80, 80, 80, 0.3);
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 a {
