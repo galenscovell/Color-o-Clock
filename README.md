@@ -1,3 +1,5 @@
+<img src='http://galenscovell.github.io/css/pics/coloroclock.png' width=500px />
+
 Color o'Clock
 =======
 
